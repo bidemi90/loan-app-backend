@@ -1323,7 +1323,6 @@ const send_mailer = async (req, res, next) => {
       checkExistingDetails.firstName,
       "legalAction"
     );
-   
 
     return res.status(200).json({
       message: "Mail sent successfully",
